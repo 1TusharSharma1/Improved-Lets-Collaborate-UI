@@ -7,11 +7,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+main{
     display: flex;
 justify-content: center;
 align-items: center;
-min-height: 100vh;
+/* min-height: 100vh; */
+/* height: 500px; */
 background: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255));
 }
 .container{
@@ -21,7 +22,7 @@ background: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255));
     align-items: center;
     flex-wrap: wrap;
     gap: 100px 34px;
-    padding: 100px 30px;
+    padding: 89px 30px 100px 30px;
 }
 .container .card{
     position: relative;
